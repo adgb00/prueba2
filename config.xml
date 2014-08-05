@@ -1,1 +1,2 @@
-<gap:plugin name="nl.x-services.plugins.flashlight" version="2.0.0" />
+
+<gap:plugin name="org.apache.cordova.battery-status" version="0.2.7" />
