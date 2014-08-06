@@ -1,12 +1,13 @@
 <html>
 <head>
   <script>
-    window.addEventListener("batterystatus", onBatteryStatus, false);
-
-function onBatteryStatus(info) {
+  function onBatteryStatus(info) {
     // Handle the online event
     alert("Level: " + info.level + " isPlugged: " + info.isPlugged);
 }
+    window.addEventListener("batterystatus", onBatteryStatus, false);
+
+
   </script>
 </head>
 <body>
